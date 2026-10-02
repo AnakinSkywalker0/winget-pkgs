@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+PackageIdentifier: AnakinSkywalker0.blackbox
+PackageVersion: 0.4.0
+InstallerType: inno
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-10-02
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/AnakinSkywalker0/blackbox/releases/download/v0.4.0/bb-v0.4.0-setup-x64.exe
+  InstallerSha256: CA4A8291F4559ECA09860058CCB66294D472CB9055E7490A7B37531D23359A9B
+  ProductCode: '{6F291038-731F-4998-AADF-C25DCFC0032C}_is1'
+ManifestType: installer
+ManifestVersion: 1.10.0
